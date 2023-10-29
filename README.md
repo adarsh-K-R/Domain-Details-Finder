@@ -14,11 +14,11 @@
 
 ## Introduction
 
-The **Domain Details Finder** is a versatile tool designed to extract details of public domains, including the owner's name, address, and phone number. It then stores the results in a CSV file and emails it to a specified email address. This tool is also equipped to run on a schedule, automating the domain detail extraction process. It keeps track of any errors that may occur and logs them in a separate error file.
+The **Domain Details Finder** is a versatile tool designed to extract details of public domains, including the owner's name, email, and phone number. It then stores the results in a CSV file and emails it to a specified email address. This tool is also equipped to run on a schedule, automating the domain detail extraction process. It keeps track of any errors that may occur and logs them in a separate error file.
 
 ## Features
 
-- Extracts owner's name, address, and phone number for public domains.
+- Extracts owner's name, email, and phone number for public domains.
 - Stores extracted data in a CSV file.
 - Emails the CSV file to a pre-specified email address.
 - Automated execution using cron jobs (node-schedule).
